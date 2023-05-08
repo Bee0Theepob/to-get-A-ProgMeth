@@ -55,15 +55,15 @@ public class TicTacToeCell extends Pane{
 		}
 		else {
 			if(GameLogic.getInstance().isOturn()) {
-//				Image img =new Image("file:res//"+oURL);
-				String imgPath = ClassLoader.getSystemResource(oURL).toString();
-				Image img =new Image(imgPath);
+				Image img =new Image("file:res//"+oURL);
+//				String imgPath = ClassLoader.getSystemResource(oURL).toString();
+//				Image img =new Image(imgPath);
 				draw(img,Color.AQUA);
 			}
 			else {
-//				Image img =new Image("file:res//"+xURL);
-				String imgPath = ClassLoader.getSystemResource(xURL).toString();
-				Image img =new Image(imgPath);
+				Image img =new Image("file:res//"+xURL);
+//				String imgPath = ClassLoader.getSystemResource(xURL).toString();
+//				Image img =new Image(imgPath);
 				draw(img,Color.YELLOW);
 			}
 		}

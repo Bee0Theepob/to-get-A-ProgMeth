@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="src" path="2110215_Lab4_2022_2_6532100021_Theepob/src"/>
+	<classpathentry kind="src" path="2110215_Lab5_2022_2_6532100021_Theepob/src"/>
+	<classpathentry kind="src" path="2110215_Lab6_2022_2_6532100021_Theepob/src"/>
+	<classpathentry kind="src" path="exam2/Part1"/>
+	<classpathentry kind="src" path="exam2/Part2"/>
+	<classpathentry kind="src" path="exam3/Part2/src"/>
+	<classpathentry kind="src" path="exam3/Part3/src"/>
+	<classpathentry kind="src" path="final p1/Part1"/>
+	<classpathentry kind="src" path="final p2/src"/>
+	<classpathentry kind="lib" path="2110215_Lab4_2022_2_6532100021_Theepob/Lab4_2022_2_6532100021.jar"/>
+	<classpathentry kind="lib" path="2110215_Lab5_2022_2_6532100021_Theepob/Lab5_2022_2_6532100021.jar"/>
+	<classpathentry kind="lib" path="2110215_Lab6_2022_2_6532100021_Theepob/Lab6_2022_2_6532100021.jar"/>
+	<classpathentry kind="output" path="2110215_Lab4_2022_2_6532100021_Theepob/bin"/>
+</classpath>
