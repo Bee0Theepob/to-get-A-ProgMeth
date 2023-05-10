@@ -37,7 +37,7 @@ public class ControlPane extends VBox{
 		initializeBingoText();
 		initializeDrawButton();
 		initializeNewRoundButton();
-		this.getChildren().addAll(drawButton,newRoundButton,drawnNumberText,drawCountText,bingoText);
+		this.getChildren().addAll(drawnNumberText,drawButton,newRoundButton,bingoText,drawCountText);
 		BingoUtil.setTextsBeginning(drawnNumberText, drawCountText);
 	}
 	

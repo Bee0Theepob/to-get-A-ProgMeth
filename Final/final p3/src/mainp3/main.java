@@ -106,28 +106,34 @@ public class main extends Application {
 					currentTimeBase7 = 0;
 					currentTimeBase13 = 0;
 					Thread t= new Thread(() -> {
-					
-						final String result2 = base_X(inputNumber,2);
-						final String result3 = base_X(inputNumber,3);
-						final String result7 = base_X(inputNumber,7);
 						final String result13 = base_X(inputNumber,13);
-						Platform.runLater(() -> {
-						base2Field.setText(result2);								
-						base3Field.setText(result3);													
-						base7Field.setText(result7);						
-						base13Field.setText(result13);	
-
+						base13Field.setText(result13);
+						//chart.addItem("Base13", currentTimeBase13);
+						
+						final String result7 = base_X(inputNumber,7);
+						base7Field.setText(result7);
+						//chart.addItem("Base7", currentTimeBase7);
+						
+						final String result3 = base_X(inputNumber,3);
+						base3Field.setText(result3);
+						//chart.addItem("Base3", currentTimeBase3);
+						
+						final String result2 = base_X(inputNumber,2);
+						base2Field.setText(result2);
+						//chart.addItem("Base2", currentTimeBase2);
+						//แบบที่เม้นสวยกว่า
+						chart.addItem("Base13", currentTimeBase13);
+						chart.addItem("Base7", currentTimeBase7);
+						chart.addItem("Base3", currentTimeBase3);
+						chart.addItem("Base2", currentTimeBase2);
+						
+						
+						
 						area.setText("Base 2  : " + base2Field.getText() 
 									+ "\n" + "Base 3  : " + base3Field.getText()
 									+ "\n" + "Base 7  : " + base7Field.getText()
 									+ "\n" + "Base 13 : " + base13Field.getText()
 									);
-						chart.addItem("Base2", currentTimeBase2);
-						chart.addItem("Base3", currentTimeBase3);
-						chart.addItem("Base7", currentTimeBase7);
-						chart.addItem("Base13", currentTimeBase13);
-					});
-					
 				});
 				t.start();
 			}
