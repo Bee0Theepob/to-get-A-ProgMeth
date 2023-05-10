@@ -76,7 +76,8 @@ public class Main extends Application{
 		/*====================FILL CODE============================
 		Add something on the code below to make new line appear while application
 		can be responded*/
-		updateLineMovement(code);						
+		Thread t = new Thread(() -> updateLineMovement(code));
+		t.start();
 		/*========================================================*/
 	}
 
@@ -93,9 +94,12 @@ public class Main extends Application{
 				function in the thread
 				*/
 				// Hint : GraphicsContext ctx is related to JavaFX, look at the certain method below.
-				lineField.getLineList().get(code).update();
-				Line b = lineField.getLineList().get(code);
-				drawLine(b);
+				Platform.runLater(() -> {
+					lineField.getLineList().get(code).update();
+					Line b = lineField.getLineList().get(code);
+					drawLine(b);
+				});
+				
 				/*========================================================*/
 		}
 			} catch (InterruptedException e) {

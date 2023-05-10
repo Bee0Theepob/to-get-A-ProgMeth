@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="final p1/Part1"/>
+	<classpathentry kind="src" path="final p2/src"/>
+	<classpathentry kind="src" path="final p3/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="lib" path="C:/Users/theepob/Desktop/Desktop/openjfx-19.0.2.1_windows-x64_bin-sdk/javafx-sdk-19.0.2.1/lib/javafx.base.jar"/>
+	<classpathentry kind="lib" path="C:/Users/theepob/Desktop/Desktop/openjfx-19.0.2.1_windows-x64_bin-sdk/javafx-sdk-19.0.2.1/lib/javafx.controls.jar"/>
+	<classpathentry kind="lib" path="C:/Users/theepob/Desktop/Desktop/openjfx-19.0.2.1_windows-x64_bin-sdk/javafx-sdk-19.0.2.1/lib/javafx.fxml.jar"/>
+	<classpathentry kind="lib" path="C:/Users/theepob/Desktop/Desktop/openjfx-19.0.2.1_windows-x64_bin-sdk/javafx-sdk-19.0.2.1/lib/javafx.graphics.jar"/>
+	<classpathentry kind="lib" path="C:/Users/theepob/Desktop/Desktop/openjfx-19.0.2.1_windows-x64_bin-sdk/javafx-sdk-19.0.2.1/lib/javafx.media.jar"/>
+	<classpathentry kind="lib" path="C:/Users/theepob/Desktop/Desktop/openjfx-19.0.2.1_windows-x64_bin-sdk/javafx-sdk-19.0.2.1/lib/javafx.swing.jar"/>
+	<classpathentry kind="lib" path="C:/Users/theepob/Desktop/Desktop/openjfx-19.0.2.1_windows-x64_bin-sdk/javafx-sdk-19.0.2.1/lib/javafx.web.jar"/>
+	<classpathentry kind="lib" path="C:/Users/theepob/Desktop/Desktop/openjfx-19.0.2.1_windows-x64_bin-sdk/javafx-sdk-19.0.2.1/lib/javafx-swt.jar"/>
+	<classpathentry kind="output" path="final p2/bin"/>
+</classpath>
