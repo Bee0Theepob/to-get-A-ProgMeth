@@ -20,8 +20,8 @@ public class Fighter extends Piece {
 			for(int i = 0;i<movePositions.size();i++) {
 				movePositions.get(i).reverse();
 			}
-			this.setPromoted(false);;
 		}
+		this.setPromoted(false);
 	}
 	public void move(int movePattern) {
 		if(isPromoted()) {
